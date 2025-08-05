@@ -16,4 +16,4 @@ fn main() {
     let results = AhoCorasick::find_patterns(&haystack, patterns).unwrap();
 
     println!("{:?}", results);
-}```
+}
